@@ -1,0 +1,6 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: ^
+  train:
+    cmd: ^

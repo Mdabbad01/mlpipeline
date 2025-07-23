@@ -1,0 +1,14 @@
+preprocess:
+  input: data/diabetes.csv       # correct if it's in project root
+  output: processed/cleaned.csv
+
+  
+
+train:
+  data: processed/cleaned.csv
+  model: models/model.pkl
+  random_state: 42
+  n_estimators: 100
+  max_depth: 5
+
+
